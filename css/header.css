@@ -1,5 +1,7 @@
 .header{
     width: 1400px;
+    width: 400px;
+    height: 400px;
     background-color: brown;
 } 
 .container{
@@ -8,7 +10,6 @@
     background-color: cadetblue; 
 
 }
-
 .header{
         background-image: url("/images/bg-header-desktop.png");
         font-family: 'Bai Jamjuree', sans-serif;
@@ -23,9 +24,9 @@
         align-items: center;
         padding: 25px;
 }
- .firstt{
+.firstt{
         font-size: 38px;
-    font-family: semi-bold;
+        font-family: semi-bold;
 }
     .buttons{
         display: flex;
@@ -75,4 +76,6 @@
         opacity: 0.5;
         font-size: 18px;
         font-family: regular;
+    background-color: cadetblue;
+
 }
